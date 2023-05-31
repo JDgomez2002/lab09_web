@@ -1,0 +1,19 @@
+.component-button-panel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    background: #858694;
+    border-radius: 0 0 20px 20px;
+}
+
+.component-button-panel > div {
+    display: flex;
+    flex: 1 0 auto;
+    width: 100%;
+    margin-bottom: 1px;
+}
+
+.rounded {
+    border-radius: 0 0 0 20px;
+}

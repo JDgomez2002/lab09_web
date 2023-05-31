@@ -1,0 +1,57 @@
+.component-button {
+    display: inline-flex;
+    width: 25%;
+    flex: 1 0 auto;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #ccc;
+}
+
+.component-button.wide {
+    width: 50%;
+    border-radius: 0 0 0 20px;
+}
+
+.component-button button {
+    background: #faedcd;
+    border: 0;
+    font-size: 3em;
+    margin: 0 1px 0 0;
+    flex: 1 0 auto;
+    
+}
+
+.rounded {
+    border-radius: 0 0 20px 0;
+    background-color: red;
+}
+
+.component-button.orange button {
+    background: #ffafcc;
+    color: #fff;
+}
+
+.component-button.orange button:hover {
+    background: #bf7433;
+}
+
+.component-button.green button {
+    background: #cdb4db;
+    color: #fff;
+}
+
+.component-button.orange button:hover {
+    background: #cdb4db;
+}
+
+.component-button.green button {
+    background: #a2d2ff;
+    border-radius: 0 0 20px 0;
+    color: white;
+}
+
+.component-button.green button:hover {
+    background: #415a77;
+}
